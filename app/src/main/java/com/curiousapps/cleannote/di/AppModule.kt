@@ -5,6 +5,7 @@ import androidx.room.Room
 import com.curiousapps.cleannote.feature_note.data.data_source.NoteDataBase
 import com.curiousapps.cleannote.feature_note.data.repository.NoteRepositoryImpl
 import com.curiousapps.cleannote.feature_note.domain.repo.NoteRepository
+import com.curiousapps.cleannote.feature_note.domain.use_case.AddNoteUseCase
 import com.curiousapps.cleannote.feature_note.domain.use_case.DeleteNoteUseCase
 import com.curiousapps.cleannote.feature_note.domain.use_case.GetNotesUseCase
 import com.curiousapps.cleannote.feature_note.domain.use_case.NoteUseCases
@@ -39,7 +40,8 @@ object AppModule {
     fun provideNoteUseCases(repository: NoteRepository): NoteUseCases{
         return NoteUseCases(
             getNotes = GetNotesUseCase(repository),
-            deleteNote = DeleteNoteUseCase(repository)
+            deleteNote = DeleteNoteUseCase(repository),
+            addNote = AddNoteUseCase(repository)
         )
     }
 
