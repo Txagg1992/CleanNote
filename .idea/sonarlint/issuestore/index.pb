@@ -11,16 +11,12 @@ X
 gradlew.bat,2\a\2a45a911a8f1836b0b6c5b758962572012d8f8c3
 >
 app/.gitignore,5\1\51e1c5d383dfaa35e0e7e5873a0a99355a86880f
-@
-app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
 }
 Mapp/src/androidTest/java/com/curiousapps/cleannote/ExampleInstrumentedTest.kt,a\c\ac91de6da5d562ffeec6555381ac193974e5829c
 n
 >app/src/test/java/com/curiousapps/cleannote/ExampleUnitTest.kt,4\8\482bb36908a9a94c5d826796c1108ec0bc77e3f3
 F
 app/proguard-rules.pro,9\e\9e08934d811afe28fbc77aaa3c0d747b94348db9
-<
-build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
 l
 <app/src/main/java/com/curiousapps/cleannote/ui/theme/Type.kt,8\0\80c2fe0d192325103962af691b1757cd729887b1
 m
@@ -43,7 +39,9 @@ Vapp/src/main/java/com/curiousapps/cleannote/feature_note/domain/repo/NoteReposi
 Yapp/src/main/java/com/curiousapps/cleannote/feature_note/data/data_source/NoteDataBase.kt,6\4\649a88062f8168678f754c820f0a53ad61f42028
 P
  app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
-
-Qapp/src/main/java/com/curiousapps/cleannote/feature_note/domain/util/NoteOrder.kt,0\5\051f616734723aad34291016c073375772049920
 f
 6app/src/main/java/com/curiousapps/cleannote/NoteApp.kt,4\4\4497014567f09d71658cd08b8c6a3e78bf20ead7
+
+Qapp/src/main/java/com/curiousapps/cleannote/feature_note/domain/util/OrderType.kt,7\7\7798fcbe75fff233a3c58336d18a33de3d770d59
+
+]app/src/main/java/com/curiousapps/cleannote/feature_note/domain/use_case/DeleteNoteUseCase.kt,8\d\8d6f23b1cbbd7d88d2a024546e13ae153c56fb6e
